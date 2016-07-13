@@ -3,7 +3,7 @@
 header {
   height: 70px;
   position: relative;
-  background-color: #eee;
+  background-color: #DC741E;
 }
 
 .logo {
@@ -16,6 +16,7 @@ header {
   font-family: monospace;
   font-weight: bold;
   font-size: 25px;
+  color: #333;
 }
 
 .cart {
@@ -30,7 +31,6 @@ header {
 .cart img {
   width: 30px;
   height: auto;
-  border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
@@ -57,4 +57,98 @@ header {
 .slide img {
   width: 100%;
   margin-top: -190px;
+}
+
+.slogen {
+  height: 112px;
+  position: relative;
+  background-color: #bbb;
+}
+
+.slogen p {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -350px;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.instruction {
+  height: 80px;
+  position: relative;
+  background-color: #999;
+}
+
+.instruction p {
+  width: 560px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -280px;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/*shopping list*/
+
+.board {
+  padding: 30px;
+}
+
+.item {
+  width: 33%;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+
+.title-field {
+  height: 50px;
+  width: 100%;
+  background: #666;
+  padding-top: 25px;
+}
+
+.title-field p {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.button-field {
+  height: 50px;
+  width: 100%;
+  background-color: #E47100;
+  padding-top: 20px;
+}
+
+button {
+  width: 200px;
+  height: 35px;
+  background-color: #;
+  outline: 0;
+  border: 1px solid #00f;
+  color: #f00;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+button:hover {
+  border: 1px solid #f00;
+  font-size: 14px;
 }
