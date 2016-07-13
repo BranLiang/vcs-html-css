@@ -1,0 +1,60 @@
+/*header*/
+
+header {
+  height: 70px;
+  position: relative;
+  background-color: #eee;
+}
+
+.logo {
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  display: inline-block;
+  left: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cart {
+  display: inline-block;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  right: 30px;
+}
+
+.cart img {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.cart a {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: #333;
+}
+
+/*body part*/
+.slide {
+  height: 430px;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  margin-top: -190px;
+}
