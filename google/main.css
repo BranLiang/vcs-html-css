@@ -17,7 +17,7 @@ nav a {
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-  color: #000;
+  color: #333;
   font-family:sans-serif;
   font-size: 13px;
   margin-left: 11px;
@@ -126,8 +126,79 @@ section {
   float: right;
 }
 
+/*button*/
+
 .click {
   padding-top: 30px;
-  width: 250px;
+  width: 300px;
   margin: 0 auto;
+}
+
+.button {
+  height: 35px;
+  padding: 5px 13px;
+  margin-left: 5px;
+  border: 1px solid #fff;
+  background-color: #eee;
+  color: #777;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.button:hover {
+  border: 1px solid #bbb;
+  color: #000;
+}
+
+/*text*/
+
+.google-local {
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.google-local a {
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.google-local a:hover {
+  text-decoration: underline;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  background-color: #eee;
+}
+
+.foot {
+  margin: 10px 30px;
+}
+
+.foot a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 26px;
+  color: #666;
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}
+
+.foot a:first-child {
+  padding-left: 0;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
 }
