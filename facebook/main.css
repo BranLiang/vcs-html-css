@@ -1,7 +1,4 @@
-.facebook-title,
-header {
-  border: 1px solid #000;
-}
+
 
 header {
   height: 80px;
@@ -62,4 +59,138 @@ header {
 
 .login button:hover {
   background-color: #3B5998;
+}
+
+/*section part*/
+
+section {
+  background: -webkit-linear-gradient(top, #fff, #C3CCDE);
+  display: flex;
+}
+
+
+
+.column-5 {
+  width: 41.6%;
+}
+
+.right-align {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signup-img {
+  width: 320px;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcome h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #425899;
+}
+
+.welcome h4 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.column-7 {
+  width: 58.4%;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-field {
+  width: 55%;
+  padding-left: 110px;
+}
+
+.sign-field h1 {
+  font-family: helvetica;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 30px 0 15px 0;
+}
+
+.sign-field h4 {
+  font-family: helvetica;
+  font-size: 19px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.sign-field input {
+  display: inline-block;
+  /*width: 370px;*/
+  margin-bottom: 5px;
+
+}
+
+
+.sign-field input:nth-child(2) {
+  margin-left: 6px;
+}
+
+.input-line {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  font-size: 18px;
+  font-family: helvetica;
+  padding-left: 10px;
+  width: 370px;
+}
+
+.sign-field input:first-child,
+.sign-field input:nth-child(2) {
+  width: 174px;
+}
+.sign-field label {
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+.sign-field select {
+  margin: 10px 0;
+
+  height: 30px;
+  border: none;
+  border: 1px solid #bbb;
+}
+
+.sign-field p {
+  margin: 20px 0;
+  font-size: 11px;
+  font-family: helvetica;
+}
+
+input[type="button"] {
+  height: 40px;
+  width: 50%;
+  background-color: #0cd65a;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+input[type="button"]:hover {
+  background-color: #33aa12;
 }
