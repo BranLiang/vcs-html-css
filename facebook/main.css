@@ -1,0 +1,65 @@
+.facebook-title,
+header {
+  border: 1px solid #000;
+}
+
+header {
+  height: 80px;
+  padding: 0 150px;
+  background-color: #3B5998;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.facebook-title {
+  width: 170px;
+  height: 38px;
+  overflow: hidden;
+}
+
+.facebook-title img {
+  position: relative;;
+  bottom: 250px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login-block {
+  height: 50px;
+  width: 145px;;
+  display: inline-block;
+  font-weight: normal;
+  font-family: helvetica;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.login-block form input:first-child {
+  margin: 3px 0;
+  width: 140px;
+}
+
+.password-forgot {
+  margin-top: 5px;
+}
+
+.login button {
+  display: inline-block;
+  background-color: #4b6aa8;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 2px;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: normal;
+  font-family: helvetica;
+}
+
+.login button:hover {
+  background-color: #3B5998;
+}
